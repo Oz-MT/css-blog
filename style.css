@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  width: 900px;
+  margin: auto;
+  border: 2px solid blue;
+  margin-top: 5rem;
+  padding: 4rem;
+}
+
+.red-box {
+  min-width: 200px;
+  max-width: 200px;
+  height: 200px;
+  background-color: red;
+  margin-right: 3rem;
+}
